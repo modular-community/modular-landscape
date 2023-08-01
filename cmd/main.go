@@ -11,7 +11,7 @@ import (
 
 var root = &cobra.Command{
 	Use:           "landscape",
-	Long:          "Command line tool for the CNCF Landscape.",
+	Long:          "Command line tool for the Modular Ecosystem Landscape.",
 	SilenceErrors: true,
 	SilenceUsage:  true,
 }

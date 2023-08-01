@@ -11,7 +11,7 @@
 ## Introduction
 
 If you've researched cloud native applications and technologies, you've probably come
-across the [CNCF cloud native landscape](https://landscape.cncf.io). Unsurprisingly,
+across the [Modulear Ecosystem Landscape](https://landscape.modular.community). Unsurprisingly,
 the sheer scale of it can be overwhelming. So many categories and so many technologies.
 How do you make sense of it?
 

@@ -1,7 +1,7 @@
 global:
   name: Modular Interactive Landscape
-  short_name: CNCF
-  mode: CNCF
+  short_name: Modular Ecosystem
+  mode: ModularEcosystem
   repo: modular-community/modular-landscape
   website: https://landscape.modular.community
   short_domain: l.modular.community
@@ -31,7 +31,7 @@ global:
 
       <meta property="og:title" content="Modular Landscape" />
 
-      <meta property="og:description" content="The Cloud Native Landscape organizes all cloud native open source projects and proprietary products into
+      <meta property="og:description" content="The Modular Landscape organizes all cloud native open source projects and proprietary products into
       categories, providing an overview of the current ecosystem" />
 
       <meta property="og:url" content="https://landscape.modular.community/" />
@@ -50,10 +50,6 @@ global:
       <meta name="twitter:image:width" content="1800" />
 
       <meta name="twitter:image:height" content="945" />
-
-      <script src="https://cmp.osano.com/16A0DbT9yDNIaQkvZ/c3494b1e-ff3a-436f-978d-842e9a0bed27/osano.js"></script>
-
-      <link href="/images/cookie-banner.css" rel="stylesheet" type='text/css' media='all' />
   membership: Modular Members
   flags:
     hide_license_for_categories:
@@ -63,11 +59,11 @@ twitter:
   url: https://landscape.modular.community
   text: Modular Landscape
 relation:
-  label: CNCF Relation
+  label: Modular Landscape
   url: cncf
   values:
     - id: hosted
-      label: CNCF Projects
+      label: Modular Projects
       children:
         - id: launched
           label: Launched Projects
@@ -144,16 +140,13 @@ membership:
     funding: 'No'
 home:
   header: >
-    <h1>Modular Interactive Landscape</h1> The cloud native landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
-    href="images/landscape.pdf">pdf</a>), serverless landscape (<a target="_blank" href="images/serverless.png">png</a>, <a target="_blank"
-    href="images/serverless.pdf">pdf</a>), and member landscape (<a target="_blank" href="images/members.png">png</a>, <a target="_blank"
-    href="images/members.pdf">pdf</a>) are dynamically generated below.
+    <h1>Modular Interactive Landscape</h1> The modular ecosystem landscape (<a target="_blank" href="images/modular-ecosystem-2023.png">png</a>.
   footer: |
     Crunchbase data is used under license from Crunchbase to CNCF.
-ads:
-  - url: https://events.linuxfoundation.org/cdcon-gitopscon/
-    image: /images/cdcon-gitopscon-mobile.jpg
-    title: cdCon + GitOpsCon
+# ads:
+#   - url: https://events.linuxfoundation.org/cdcon-gitopscon/
+#     image: /images/cdcon-gitopscon-mobile.jpg
+#     title: cdCon + GitOpsCon
 presets:
   - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
     label: Cards by age
@@ -163,14 +156,24 @@ presets:
     label: Member cards
   - url: /format=card-mode&grouping=no&sort=stars
     label: Cards by stars
-  - url: /format=card-mode&grouping=headquarters&headquarters=china,hong-kong,taiwan
-    label: Cards from China
-  - url: /format=card-mode&grouping=category&category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer,special
-    label: Certified K8s/KCSP/KTP
-  - url: /format=card-mode&grouping=no&sort=amount
-    label: Cards by MCap/Funding
-  - url: /format=card-mode&bestpractices=no
-    label: Cards without bestpractices.dev
+  - url: /format=data-avalability-networks&grouping=category
+    label: Cards by Data Availability
+  - url: /format=consensus&grouping=category
+    label: Cards by Consensus
+  - url: /format=settlement&grouping=category
+    label: Cards by Settlement
+  - url: /format=execution&grouping=category
+    label: Cards by Execution
+  - url: /format=infrastructure&grouping=category
+    label: Cards by Infrastructure
+  - url: /format=sequencing&grouping=category
+    label: Cards by Sequencing
+  - url: /format=rollup-frameworks&grouping=category
+    label: Cards by Rollup Frameworks
+  - url: /format=rollup-as-a-service&grouping=category
+    label: Cards by Rollup as a Service
+  - url: /format=cross-chain&grouping=category
+    label: Cards by Cross Chain
 big_picture:
   main:
     tab_index: -1
@@ -178,7 +181,7 @@ big_picture:
     name: Landscape
     short_name: Land...
     title: Modular Landscape
-    fullscreen_header: Overwhelmed? Please see the CNCF Trail Map. That and the interactive landscape are at l.cncf.io
+    fullscreen_header: Overwhelmed? Please see the Modular Ecosystem Trail Map. That and the interactive landscape are at l.modular.community
     elements:
       - type: HorizontalCategory
         category: Data Avalability Networks
@@ -204,8 +207,7 @@ big_picture:
         children:
           - type: text
             text: >
-              This landscape is intended as a map through the previously uncharted terrain of cloud native technologies. There are many routes to deploying a
-              cloud native application, with CNCF Projects representing a particularly well-traveled path.
+              This landscape is intended as a map through the previously uncharted terrain of the modular ecosystem.
             top: 80
             left: 120
             right: 20
@@ -247,9 +249,9 @@ big_picture:
             top: 42
             title: Redpoint Logo
 test:
-  header: CNCF Cloud Native Interactive Landscape
-  section: CNCF Graduated Projects
-  logo: kubernetes.svg
+  header: Modular Ecosystem Cloud Native Interactive Landscape
+  section: Modular Ecosystem Graduated Projects
+  logo: modular-ecosystem.jpeg
 anonymous_organization:
   name: Non-Public Unnamed Organization
   homepage: https://www.cncf.io
@@ -259,14 +261,8 @@ anonymous_organization:
   twitter: https://twitter.com/CloudNativeFdn
 prerender:
   end-users: /card-mode?enduser=yes&style=logo&embed=yes
-  kubernetes-training-partners: /card-mode?category=kubernetes-training-partner&grouping=category&embed=yes
-  kubernetes-certified-service-providers: /card-mode?category=kubernetes-certified-service-provider&grouping=category&embed=yes
-  kubernetes-certified-distributions-and-hosted-and-installers: /card-mode?category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer&grouping=category&embed=yes
-  members: /card-mode?category=cncf-members&grouping=category&embed=yes
-  software-conformance: /card-mode?category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer&grouping=category&embed=yes
+  members: /card-mode?category=modular-ecosystem-members&grouping=category&embed=yes
+  partners: /card-mode?category=partner&grouping=category&embed=yes
 export:
   end-users-reverse-chronological: enduser=yes&sort=joined&grouping=no
-  members-reverse-chronological: category=platinum,gold,silver,academic,nonprofit&project=member&sort=joined&grouping=no
-  certified-kubernetes: category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer&grouping=no
-  cncf-members: category=cncf-members&grouping=no
-  cncf-platinum-members: category=platinum&grouping=no
+  modular-ecosystem-members: category=modular-ecosystem-members&grouping=no
