@@ -181,19 +181,51 @@ big_picture:
     fullscreen_header: Overwhelmed? Please see the CNCF Trail Map. That and the interactive landscape are at l.cncf.io
     elements:
       - type: HorizontalCategory
-        category: Data Avalability Networks
+        category: Data avalability
         rows: 1
         width: 570
-        height: 180
+        height: 90
         top: 0
         left: 0
         color: rgb(0,181,226)
       - type: HorizontalCategory
-        category: Rollup Frameworks
+        category: Consensus
         rows: 1
         width: 570
-        height: 180
+        height: 90
+        top: 100
+        left: 0
+        color: rgb(0,181,226)
+      - type: HorizontalCategory
+        category: Consensus
+        rows: 1
+        width: 570
+        height: 90
         top: 200
+        left: 0
+        color: rgb(0,181,226)
+      - type: HorizontalCategory
+        category: Settlement
+        rows: 1
+        width: 570
+        height: 90
+        top: 300
+        left: 0
+        color: rgb(0,181,226)
+      - type: HorizontalCategory
+        category: Execution
+        rows: 1
+        width: 570
+        height: 90
+        top: 400
+        left: 0
+        color: rgb(0,181,226)
+      - type: HorizontalCategory
+        category: Rollup framework
+        rows: 1
+        width: 570
+        height: 90
+        top: 500
         left: 0
         color: rgb(0,134,191)
       - type: LandscapeInfo

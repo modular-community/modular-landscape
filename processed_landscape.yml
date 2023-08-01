@@ -1,41 +1,107 @@
 landscape:
-  - category:
-    name: Data Avalability Networks
-    subcategories:
-      - subcategory:
-        name: Data Avalability Networks
-        items:
-          - item:
-            name: Celestia
-            project: launched
-            homepage_url: https://celestia.org/
-            repo_url: https://github.com/celestiaorg/celestia-node
-            logo: celestia.svg
-            twitter: https://twitter.com/celestiaOrg
-            crunchbase: https://www.crunchbase.com/organization/lazyledger
-  - category:
-    name: Rollup Frameworks
-    subcategories:
-      - subcategory:
-        name: Rollup Frameworks
-        items:
-          - item:
-            name: Rollkit
-            project: testnet
-            homepage_url: https://rollkit.dev/
-            repo_url: https://github.com/rollkit/rollkit
-            logo: rollkit.svg
-            twitter: https://twitter.com/RollkitDev
-            crunchbase: https://www.crunchbase.com/organization/lazyledger
-  - category:
-    name: Modular Members
-    subcategories:
-      - subcategory:
-        name: Platinum
-        items: []
-      - subcategory:
-        name: Gold
-        items: []
-      - subcategory:
-        name: Silver
-        items: []
+- category:
+  name: Data avalability
+  subcategories:
+    - subcategory:
+      name: Data avalability
+      items:
+      - item:
+        name: Celestia
+        allow_duplicate_repo: true
+        project: testnet
+        homepage_url: https://celestia.org/
+        repo_url: https://github.com/celestiaorg/celestia-node
+        logo: celestia.svg
+        twitter: https://twitter.com/celestiaOrg
+        crunchbase: https://www.crunchbase.com/organization/lazyledger
+      - item:
+        name: Ethereum
+        allow_duplicate_repo: true
+        project: launched
+        homepage_url: https://ethereum.org/
+        repo_url: https://github.com/ethereum/go-ethereum
+        # project_org: https://github.com/ethereum
+        logo: celestia.svg
+        twitter: https://twitter.com/ethereum?
+        crunchbase: https://www.crunchbase.com/organization/ethereum
+- category:
+  name: Consensus
+  subcategories:
+  - subcategory:
+    name: Consensus
+    items:
+    - item:
+      name: Celestia
+      allow_duplicate_repo: true
+      project: testnet
+      homepage_url: https://celestia.org/
+      repo_url: https://github.com/celestiaorg/celestia-app
+      logo: celestia.svg
+      twitter: https://twitter.com/celestiaOrg
+      crunchbase: https://www.crunchbase.com/organization/lazyledger
+    - item:
+      name: Ethereum
+      allow_duplicate_repo: true
+      project: launched
+      homepage_url: https://ethereum.org/
+      repo_url: https://github.com/ethereum/go-ethereum
+      logo: celestia.svg
+      twitter: https://twitter.com/ethereum
+      crunchbase: https://www.crunchbase.com/organization/ethereum
+- category:
+  name: Settlement
+  subcategories:
+  - subcategory:
+    name: Settlement
+    items:
+    - item:
+      name: Ethereum
+      allow_duplicate_repo: true
+      project: launched
+      homepage_url: https://ethereum.org/
+      repo_url: https://github.com/ethereum/go-ethereum
+      # project_org: https://github.com/ethereum
+      logo: celestia.svg
+      twitter: https://twitter.com/ethereum
+      crunchbase: https://www.crunchbase.com/organization/ethereum
+- category:
+  name: Execution
+  subcategories:
+  - subcategory:
+    name: Execution
+    items:
+    - item:
+      name: Arbitrum Nitro
+      project: testnet
+      homepage_url: https://developer.arbitrum.io/inside-arbitrum-nitro/
+      repo_url: https://github.com/OffchainLabs/nitro
+      logo: celestia.svg
+      twitter: https://twitter.com/arbitrum
+      crunchbase: https://www.crunchbase.com/organization/arbitrum
+- category:
+  name: Rollup framework
+  subcategories:
+  - subcategory:
+    name: Rollup framework
+    items:
+    - item:
+      name: Rollkit
+      project: testnet
+      homepage_url: https://rollkit.dev/
+      repo_url: https://github.com/rollkit/rollkit
+      # project_org: https://github.com/rollkit
+      logo: rollkit.svg
+      twitter: https://twitter.com/RollkitDev
+      crunchbase: https://www.crunchbase.com/organization/lazyledger
+- category:
+  name: Modular Members
+  subcategories:
+  - subcategory:
+    name: Platinum
+    items: []
+  - subcategory:
+    name: Gold
+    items: []
+  - subcategory:
+    name: Silver
+    items: []

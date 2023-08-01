@@ -57,13 +57,13 @@ also included a section for associated buzzwords and lists CNCF projects
 
 Are you searching for an exciting project to contribute to within the CNCF ecosystem? Look no further! The CNCF hosts a wide range of projects that span cloud-native computing. To find the perfect project for your skills and interests, check out our comprehensive contribution guide at [Getting Started](https://contribute.cncf.io/contributors/getting-started/). It provides you step-by-step instructions on getting started and offers valuable insights for both newcomers and experienced contributors. Join our vibrant community and make your mark on cloud-native innovation today!
 
-<section data-category="Data Avalability Networks">
+<section data-category="Data avalability">
 
 TODO: Add description
 
 </section>
 
-<section data-subcategory="Data Avalability Networks"
+<section data-subcategory="Data avalability"
          data-buzzwords="Data Avalability (DA)">
 
 #### What it is
@@ -83,33 +83,6 @@ TODO: Add description
 TODO: Add description
 
 </section> -->
-
-<section data-category="Rollup Frameworks">
-
-TODO: Add description
-
-</section>
-
-<section data-subcategory="Rollup Frameworks"
-         data-buzzwords="Rollup Frameworks">
-
-#### What it is
-
-TODO: Add description
-
-#### Problem it addresses
-
-TODO: Add description
-
-#### How it helps
-
-TODO: Add description
-
-#### Technical 101
-
-TODO: Add description
-
-</section>
 
 ### Summary: Platform
 
