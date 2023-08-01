@@ -1,0 +1,41 @@
+landscape:
+  - category:
+    name: Data Avalability Networks
+    subcategories:
+      - subcategory:
+        name: Data Avalability Networks
+        items:
+          - item:
+            name: Celestia
+            project: launched
+            homepage_url: https://celestia.org/
+            repo_url: https://github.com/celestiaorg/celestia-node
+            logo: celestia.svg
+            twitter: https://twitter.com/celestiaOrg
+            crunchbase: https://www.crunchbase.com/organization/lazyledger
+  - category:
+    name: Rollup Frameworks
+    subcategories:
+      - subcategory:
+        name: Rollup Frameworks
+        items:
+          - item:
+            name: Rollkit
+            project: testnet
+            homepage_url: https://rollkit.dev/
+            repo_url: https://github.com/rollkit/rollkit
+            logo: rollkit.svg
+            twitter: https://twitter.com/RollkitDev
+            crunchbase: https://www.crunchbase.com/organization/lazyledger
+  - category:
+    name: Modular Members
+    subcategories:
+      - subcategory:
+        name: Platinum
+        items: []
+      - subcategory:
+        name: Gold
+        items: []
+      - subcategory:
+        name: Silver
+        items: []

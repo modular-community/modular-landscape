@@ -1,0 +1,272 @@
+global:
+  name: Modular Interactive Landscape
+  short_name: CNCF
+  mode: CNCF
+  repo: modular-community/modular-landscape
+  website: https://landscape.modular.community
+  short_domain: l.modular.community
+  company_url: https://modular.community
+  email: info@modular-community
+  self: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  slack_channel: T08PSQ7BQ/BC07DVB0C/jqc0ANnvpVddAp651jgyMKdr
+  meta:
+    title: Modular Landscape
+    fb_admin: alex.contini.94
+    description: >-
+      The Cloud Native Landscape organizes all cloud native open source projects and proprietary products into categories, providing an overview of the current
+      ecosystem
+    twitter: '@modular.community'
+    google_site_verification: 8l35EQriJXntsib5sBdRu4gmDV1nAP9PSoHccJC8ABQ
+    ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
+    extra: >
+      <meta property="og:image" content="https://landscape.cncf.io/images/social.jpg" />
+
+      <meta property="og:image:width" content="1800" />
+
+      <meta property="og:image:height" content="945" />
+
+      <meta property="og:locale" content="en_US" />
+
+      <meta property="og:type" content="website" />
+
+      <meta property="og:title" content="Modular Landscape" />
+
+      <meta property="og:description" content="The Cloud Native Landscape organizes all cloud native open source projects and proprietary products into
+      categories, providing an overview of the current ecosystem" />
+
+      <meta property="og:url" content="https://landscape.modular.community/" />
+
+      <meta property="og:site_name" content="Modular Landscape" />
+
+      <meta name="twitter:card" content="summary_large_image" />
+
+      <meta name="twitter:title" content="Modular Landscape" />
+
+      <meta name="twitter:description" content="The Cloud Native Landscape organizes all cloud native open source projects and proprietary products into
+      categories, providing an overview of the current ecosystem" />
+
+      <meta name="twitter:image" content="https://landscape.cncf.io/images/social.jpg" />
+
+      <meta name="twitter:image:width" content="1800" />
+
+      <meta name="twitter:image:height" content="945" />
+
+      <script src="https://cmp.osano.com/16A0DbT9yDNIaQkvZ/c3494b1e-ff3a-436f-978d-842e9a0bed27/osano.js"></script>
+
+      <link href="/images/cookie-banner.css" rel="stylesheet" type='text/css' media='all' />
+  membership: Modular Members
+  flags:
+    hide_license_for_categories:
+      - Modular Members
+twitter:
+  search: landscape.modular.community
+  url: https://landscape.modular.community
+  text: Modular Landscape
+relation:
+  label: CNCF Relation
+  url: cncf
+  values:
+    - id: hosted
+      label: CNCF Projects
+      children:
+        - id: launched
+          label: Launched Projects
+          prefix: Modular
+          tag: Launched Project
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Launched
+          big_picture_color: rgb(24,54,114)
+        - id: testnet
+          label: Testnet Projects
+          prefix: Modular
+          tag: Testnet Project
+          color: '#00cbff'
+          big_picture_order: 2
+          big_picture_label: Testnet
+          big_picture_color: rgb(83, 113, 189)
+        # - id: graduated
+        #   label: CNCF Graduated Projects
+        #   prefix: CNCF
+        #   tag: Graduated Project
+        #   color: '#3570af'
+        #   big_picture_order: 1
+        #   big_picture_label: CNCF Graduated
+        #   big_picture_color: rgb(24,54,114)
+        # - id: incubating
+        #   label: CNCF Incubating Projects
+        #   prefix: CNCF
+        #   tag: Incubating Project
+        #   color: '#00cbff'
+        #   big_picture_order: 2
+        #   big_picture_label: CNCF Incubating
+        #   big_picture_color: rgb(83, 113, 189)
+        # - id: sandbox
+        #   label: CNCF Sandbox Projects
+        #   prefix: CNCF
+        #   tag: Sandbox Project
+        #   color: '#d1f7ff'
+        #   big_picture_label: CNCF Sandbox
+        #   big_picture_color: rgb(108, 165, 209)
+        #   additional_relation: member
+        # - id: archived
+        #   label: Archived CNCF Projects
+        #   prefix: CNCF
+        #   tag: Archived Project
+        #   color: '#d3d3d3'
+        #   big_picture_label: CNCF Archived
+        #   big_picture_color: rgb(211, 211, 211)
+        #   additional_relation: member
+    - id: false
+      label: Non-LF Edge Member Products/Projects
+      url: 'no'
+membership:
+  Platinum:
+    name: Modular
+    label: Platinum Member
+    funding: Platinum
+    is_large: true
+  Gold:
+    name: Modular
+    label: Gold Member
+    funding: Gold
+    is_large: true
+  Silver:
+    name: Modular
+    label: Silver Member
+    funding: Silver
+  linux_foundation:
+    name: LF
+    label: Project
+    funding: Linux Foundation
+    crunchbase_and_children: https://www.crunchbase.com/organization/linux-foundation
+  'false':
+    funding: 'No'
+home:
+  header: >
+    <h1>Modular Interactive Landscape</h1> The cloud native landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
+    href="images/landscape.pdf">pdf</a>), serverless landscape (<a target="_blank" href="images/serverless.png">png</a>, <a target="_blank"
+    href="images/serverless.pdf">pdf</a>), and member landscape (<a target="_blank" href="images/members.png">png</a>, <a target="_blank"
+    href="images/members.pdf">pdf</a>) are dynamically generated below.
+  footer: |
+    Crunchbase data is used under license from Crunchbase to CNCF.
+ads:
+  - url: https://events.linuxfoundation.org/cdcon-gitopscon/
+    image: /images/cdcon-gitopscon-mobile.jpg
+    title: cdCon + GitOpsCon
+presets:
+  - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
+    label: Cards by age
+  - url: /license=open-source
+    label: Open source landscape
+  - url: /category=cncf-members&format=card-mode&grouping=category
+    label: Member cards
+  - url: /format=card-mode&grouping=no&sort=stars
+    label: Cards by stars
+  - url: /format=card-mode&grouping=headquarters&headquarters=china,hong-kong,taiwan
+    label: Cards from China
+  - url: /format=card-mode&grouping=category&category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer,special
+    label: Certified K8s/KCSP/KTP
+  - url: /format=card-mode&grouping=no&sort=amount
+    label: Cards by MCap/Funding
+  - url: /format=card-mode&bestpractices=no
+    label: Cards without bestpractices.dev
+big_picture:
+  main:
+    tab_index: -1
+    url: landscape
+    name: Landscape
+    short_name: Land...
+    title: Modular Landscape
+    fullscreen_header: Overwhelmed? Please see the CNCF Trail Map. That and the interactive landscape are at l.cncf.io
+    elements:
+      - type: HorizontalCategory
+        category: Data Avalability Networks
+        rows: 1
+        width: 570
+        height: 180
+        top: 0
+        left: 0
+        color: rgb(0,181,226)
+      - type: HorizontalCategory
+        category: Rollup Frameworks
+        rows: 1
+        width: 570
+        height: 180
+        top: 200
+        left: 0
+        color: rgb(0,134,191)
+      - type: LandscapeInfo
+        width: 370
+        height: 280
+        top: 400
+        left: 0
+        children:
+          - type: text
+            text: >
+              This landscape is intended as a map through the previously uncharted terrain of cloud native technologies. There are many routes to deploying a
+              cloud native application, with CNCF Projects representing a particularly well-traveled path.
+            top: 80
+            left: 120
+            right: 20
+            font_size: 12
+          - type: image
+            image: qr-l.svg
+            top: 80
+            left: 15
+            width: 90
+            height: 90
+            title: QR Code
+          - type: title
+            title: l.cncf.io
+            top: 168
+            left: 18
+            font_size: 23
+          - type: image
+            image: right-logo.svg
+            width: 109
+            right: 15
+            top: 15
+            title: CNCF Logo
+          - type: image
+            image: left-logo.svg
+            width: 140
+            left: 15
+            top: 15
+            title: Landscape Logo
+          - type: image
+            image: amplify.svg
+            width: 50
+            right: 15
+            top: 40
+            title: Amplify Logo
+          - type: image
+            image: redpoint.svg
+            width: 50
+            right: 75
+            top: 42
+            title: Redpoint Logo
+test:
+  header: CNCF Cloud Native Interactive Landscape
+  section: CNCF Graduated Projects
+  logo: kubernetes.svg
+anonymous_organization:
+  name: Non-Public Unnamed Organization
+  homepage: https://www.cncf.io
+  city: Bouvet Island
+  region: Antarctica
+  country: Antarctica
+  twitter: https://twitter.com/CloudNativeFdn
+prerender:
+  end-users: /card-mode?enduser=yes&style=logo&embed=yes
+  kubernetes-training-partners: /card-mode?category=kubernetes-training-partner&grouping=category&embed=yes
+  kubernetes-certified-service-providers: /card-mode?category=kubernetes-certified-service-provider&grouping=category&embed=yes
+  kubernetes-certified-distributions-and-hosted-and-installers: /card-mode?category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer&grouping=category&embed=yes
+  members: /card-mode?category=cncf-members&grouping=category&embed=yes
+  software-conformance: /card-mode?category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer&grouping=category&embed=yes
+export:
+  end-users-reverse-chronological: enduser=yes&sort=joined&grouping=no
+  members-reverse-chronological: category=platinum,gold,silver,academic,nonprofit&project=member&sort=joined&grouping=no
+  certified-kubernetes: category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer&grouping=no
+  cncf-members: category=cncf-members&grouping=no
+  cncf-platinum-members: category=platinum&grouping=no
