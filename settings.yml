@@ -13,8 +13,7 @@ global:
     title: Modular Landscape
     fb_admin: alex.contini.94
     description: >-
-      The Cloud Native Landscape organizes all cloud native open source projects and proprietary products into categories, providing an overview of the current
-      ecosystem
+      The Modular Landscape organizes all modular open source projects and proprietary products into categories, providing an overview of the current ecosystem
     twitter: '@modular.community'
     google_site_verification: 8l35EQriJXntsib5sBdRu4gmDV1nAP9PSoHccJC8ABQ
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
@@ -249,7 +248,7 @@ big_picture:
             top: 42
             title: Redpoint Logo
 test:
-  header: Modular Ecosystem Cloud Native Interactive Landscape
+  header: Modular Ecosystem Interactive Landscape
   section: Modular Ecosystem Graduated Projects
   logo: modular-ecosystem.jpeg
 anonymous_organization:
