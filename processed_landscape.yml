@@ -8,7 +8,7 @@ landscape:
       - item:
         name: Celestia
         allow_duplicate_repo: true
-        project: testnet
+        project: launched
         homepage_url: https://celestia.org/
         repo_url: https://github.com/celestiaorg/celestia-node
         logo: celestia.svg
@@ -17,13 +17,23 @@ landscape:
       - item:
         name: Ethereum
         allow_duplicate_repo: true
-        project: launched
+        project: development
         homepage_url: https://ethereum.org/
         repo_url: https://github.com/ethereum/go-ethereum
         # project_org: https://github.com/ethereum
         logo: celestia.svg
-        twitter: https://twitter.com/ethereum?
+        twitter: https://twitter.com/ethereum
         crunchbase: https://www.crunchbase.com/organization/ethereum
+      - item:
+        name: Avail
+        allow_duplicate_repo: true
+        project: development
+        homepage_url: https://www.availproject.org/
+        repo_url: https://github.com/availproject/avail
+        # project_org: https://github.com/availproject
+        logo: celestia.svg
+        twitter: https://twitter.com/AvailProject
+        crunchbase: https://www.crunchbase.com/organization/polygontechnology
 - category:
   name: Consensus
   subcategories:
@@ -33,7 +43,7 @@ landscape:
     - item:
       name: Celestia
       allow_duplicate_repo: true
-      project: testnet
+      project: development
       homepage_url: https://celestia.org/
       repo_url: https://github.com/celestiaorg/celestia-app
       logo: celestia.svg
@@ -42,7 +52,7 @@ landscape:
     - item:
       name: Ethereum
       allow_duplicate_repo: true
-      project: launched
+      project: development
       homepage_url: https://ethereum.org/
       repo_url: https://github.com/ethereum/go-ethereum
       logo: celestia.svg
@@ -57,7 +67,7 @@ landscape:
     - item:
       name: Ethereum
       allow_duplicate_repo: true
-      project: launched
+      project: development
       homepage_url: https://ethereum.org/
       repo_url: https://github.com/ethereum/go-ethereum
       # project_org: https://github.com/ethereum
@@ -72,12 +82,44 @@ landscape:
     items:
     - item:
       name: Arbitrum Nitro
-      project: testnet
+      project: development
       homepage_url: https://developer.arbitrum.io/inside-arbitrum-nitro/
       repo_url: https://github.com/OffchainLabs/nitro
       logo: celestia.svg
       twitter: https://twitter.com/arbitrum
       crunchbase: https://www.crunchbase.com/organization/arbitrum
+- category:
+  name: Infrastructure
+  subcategories:
+  - subcategory:
+    name: Infrastructure
+    items:
+    - item:
+      name: Rollkit
+      allow_duplicate_repo: true # FIXME: remove once done
+      project: development
+      homepage_url: https://rollkit.dev/
+      repo_url: https://github.com/rollkit/rollkit
+      # project_org: https://github.com/rollkit
+      logo: rollkit.svg
+      twitter: https://twitter.com/RollkitDev
+      crunchbase: https://www.crunchbase.com/organization/lazyledger
+- category:
+  name: Sequencing
+  subcategories:
+  - subcategory:
+    name: Sequencing
+    items:
+    - item:
+      name: Rollkit
+      allow_duplicate_repo: true # FIXME: remove once done
+      project: development
+      homepage_url: https://rollkit.dev/
+      repo_url: https://github.com/rollkit/rollkit
+      # project_org: https://github.com/rollkit
+      logo: rollkit.svg
+      twitter: https://twitter.com/RollkitDev
+      crunchbase: https://www.crunchbase.com/organization/lazyledger
 - category:
   name: Rollup framework
   subcategories:
@@ -86,7 +128,40 @@ landscape:
     items:
     - item:
       name: Rollkit
-      project: testnet
+      allow_duplicate_repo: true # FIXME: remove once done
+      project: development
+      homepage_url: https://rollkit.dev/
+      repo_url: https://github.com/rollkit/rollkit
+      # project_org: https://github.com/rollkit
+      logo: rollkit.svg
+      twitter: https://twitter.com/RollkitDev
+      crunchbase: https://www.crunchbase.com/organization/lazyledger
+- category:
+  name: Rollup as a service
+  subcategories:
+  - subcategory:
+    name: Rollup as a service
+    items:
+    - item:
+      name: Rollkit
+      allow_duplicate_repo: true # FIXME: remove once done
+      project: development
+      homepage_url: https://rollkit.dev/
+      repo_url: https://github.com/rollkit/rollkit
+      # project_org: https://github.com/rollkit
+      logo: rollkit.svg
+      twitter: https://twitter.com/RollkitDev
+      crunchbase: https://www.crunchbase.com/organization/lazyledger
+- category:
+  name: Cross chain
+  subcategories:
+  - subcategory:
+    name: Cross chain
+    items:
+    - item:
+      name: Rollkit
+      allow_duplicate_repo: true # FIXME: remove once done
+      project: development
       homepage_url: https://rollkit.dev/
       repo_url: https://github.com/rollkit/rollkit
       # project_org: https://github.com/rollkit

@@ -77,13 +77,13 @@ relation:
           big_picture_order: 1
           big_picture_label: Launched
           big_picture_color: rgb(24,54,114)
-        - id: testnet
-          label: Testnet Projects
+        - id: development
+          label: Development Projects
           prefix: Modular
-          tag: Testnet Project
+          tag: Development Project
           color: '#00cbff'
           big_picture_order: 2
-          big_picture_label: Testnet
+          big_picture_label: Development
           big_picture_color: rgb(83, 113, 189)
         # - id: graduated
         #   label: CNCF Graduated Projects
@@ -182,57 +182,81 @@ big_picture:
     elements:
       - type: HorizontalCategory
         category: Data avalability
-        rows: 1
-        width: 570
-        height: 90
+        rows: 2
+        width: 200
+        height: 180
         top: 0
         left: 0
         color: rgb(0,181,226)
       - type: HorizontalCategory
         category: Consensus
-        rows: 1
-        width: 570
-        height: 90
-        top: 100
-        left: 0
+        rows: 2
+        width: 200
+        height: 180
+        top: 0
+        left: 220
         color: rgb(0,181,226)
       - type: HorizontalCategory
-        category: Consensus
-        rows: 1
-        width: 570
-        height: 90
+        category: Settlement
+        rows: 2
+        width: 200
+        height: 180
+        top: 0
+        left: 440
+        color: rgb(0,181,226)
+      - type: HorizontalCategory
+        category: Execution
+        rows: 2
+        width: 640
+        height: 180
         top: 200
         left: 0
         color: rgb(0,181,226)
       - type: HorizontalCategory
-        category: Settlement
-        rows: 1
-        width: 570
-        height: 90
-        top: 300
+        category: Infrastructure
+        rows: 2
+        width: 200
+        height: 180
+        top: 400
         left: 0
         color: rgb(0,181,226)
       - type: HorizontalCategory
-        category: Execution
-        rows: 1
-        width: 570
-        height: 90
+        category: Sequencing
+        rows: 2
+        width: 200
+        height: 180
         top: 400
-        left: 0
+        left: 220
         color: rgb(0,181,226)
       - type: HorizontalCategory
         category: Rollup framework
-        rows: 1
-        width: 570
-        height: 90
-        top: 500
-        left: 0
-        color: rgb(0,134,191)
-      - type: LandscapeInfo
-        width: 370
-        height: 280
+        rows: 2
+        width: 200
+        height: 180
         top: 400
+        left: 440
+        color: rgb(0,181,226)
+      - type: HorizontalCategory
+        category: Rollup as a service
+        rows: 2
+        width: 200
+        height: 180
+        top: 400
+        left: 660
+        color: rgb(0,181,226)
+      - type: HorizontalCategory
+        category: Cross chain
+        rows: 2
+        width: 640
+        height: 180
+        top: 600
         left: 0
+        color: rgb(0,181,226)
+      - type: LandscapeInfo
+        width: 250
+        height: 390
+        top: 0
+        left: 660
         children:
           - type: text
             text: >
