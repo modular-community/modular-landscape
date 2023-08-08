@@ -18,8 +18,6 @@ global:
     google_site_verification: 8l35EQriJXntsib5sBdRu4gmDV1nAP9PSoHccJC8ABQ
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
     extra: >
-      <meta property="og:image" content="https://landscape.cncf.io/images/social.jpg" />
-
       <meta property="og:image:width" content="1800" />
 
       <meta property="og:image:height" content="945" />
@@ -30,7 +28,7 @@ global:
 
       <meta property="og:title" content="Modular Landscape" />
 
-      <meta property="og:description" content="The Modular Landscape organizes all cloud native open source projects and proprietary products into
+      <meta property="og:description" content="The Modular Landscape organizes all modular projects open source projects and proprietary products into
       categories, providing an overview of the current ecosystem" />
 
       <meta property="og:url" content="https://landscape.modular.community/" />
@@ -41,10 +39,8 @@ global:
 
       <meta name="twitter:title" content="Modular Landscape" />
 
-      <meta name="twitter:description" content="The Cloud Native Landscape organizes all cloud native open source projects and proprietary products into
+      <meta name="twitter:description" content="The Modular Landscape organizes all modular projects open source projects and proprietary products into
       categories, providing an overview of the current ecosystem" />
-
-      <meta name="twitter:image" content="https://landscape.cncf.io/images/social.jpg" />
 
       <meta name="twitter:image:width" content="1800" />
 
@@ -200,7 +196,7 @@ big_picture:
         color: rgb(0,134,191)
       - type: LandscapeInfo
         width: 370
-        height: 280
+        height: 170
         top: 400
         left: 0
         children:
@@ -212,41 +208,41 @@ big_picture:
             right: 20
             font_size: 12
           - type: image
-            image: qr-l.svg
-            top: 80
+            image: footer-bg-image.png
+            top: 20
             left: 15
             width: 90
             height: 90
             title: QR Code
           - type: title
-            title: l.cncf.io
-            top: 168
-            left: 18
+            title: Modular Ecosystem
+            top: 20
+            left: 130
             font_size: 23
-          - type: image
-            image: right-logo.svg
-            width: 109
-            right: 15
-            top: 15
-            title: CNCF Logo
-          - type: image
-            image: left-logo.svg
-            width: 140
-            left: 15
-            top: 15
-            title: Landscape Logo
-          - type: image
-            image: amplify.svg
-            width: 50
-            right: 15
-            top: 40
-            title: Amplify Logo
-          - type: image
-            image: redpoint.svg
-            width: 50
-            right: 75
-            top: 42
-            title: Redpoint Logo
+          # - type: image
+          #   image: footer-bg-image.png
+          #   width: 40
+          #   right: 15
+          #   top: 15
+          #   title: CNCF Logo
+          # - type: image
+          #   image: footer-bg-image.png
+          #   width: 40
+          #   left: 15
+          #   top: 15
+          #   title: Landscape Logo
+          # - type: image
+          #   image: footer-bg-image.png
+          #   width: 50
+          #   right: 15
+          #   top: 40
+          #   title: Amplify Logo
+          # - type: image
+          #   image: footer-bg-image.png
+          #   width: 50
+          #   right: 75
+          #   top: 42
+          #   title: Redpoint Logo
 test:
   header: Modular Ecosystem Interactive Landscape
   section: Modular Ecosystem Graduated Projects
