@@ -1,0 +1,263 @@
+global:
+  name: Modular Interactive Landscape
+  short_name: Modular Ecosystem
+  mode: ModularEcosystem
+  repo: modular-community/modular-landscape
+  website: https://landscape.modular.community
+  short_domain: l.modular.community
+  company_url: https://modular.community
+  email: info@modular-community
+  self: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  slack_channel: T08PSQ7BQ/BC07DVB0C/jqc0ANnvpVddAp651jgyMKdr
+  meta:
+    title: Modular Landscape
+    fb_admin: alex.contini.94
+    description: >-
+      The Modular Landscape organizes all modular open source projects and proprietary products into categories, providing an overview of the current ecosystem
+    twitter: '@modular.community'
+    google_site_verification: 8l35EQriJXntsib5sBdRu4gmDV1nAP9PSoHccJC8ABQ
+    ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
+    extra: >
+      <meta property="og:image:width" content="1800" />
+
+      <meta property="og:image:height" content="945" />
+
+      <meta property="og:locale" content="en_US" />
+
+      <meta property="og:type" content="website" />
+
+      <meta property="og:title" content="Modular Landscape" />
+
+      <meta property="og:description" content="The Modular Landscape organizes all modular projects open source projects and proprietary products into
+      categories, providing an overview of the current ecosystem" />
+
+      <meta property="og:url" content="https://landscape.modular.community/" />
+
+      <meta property="og:site_name" content="Modular Landscape" />
+
+      <meta name="twitter:card" content="summary_large_image" />
+
+      <meta name="twitter:title" content="Modular Landscape" />
+
+      <meta name="twitter:description" content="The Modular Landscape organizes all modular projects open source projects and proprietary products into
+      categories, providing an overview of the current ecosystem" />
+
+      <meta name="twitter:image:width" content="1800" />
+
+      <meta name="twitter:image:height" content="945" />
+  membership: Modular Members
+  flags:
+    hide_license_for_categories:
+      - Modular Members
+twitter:
+  search: landscape.modular.community
+  url: https://landscape.modular.community
+  text: Modular Landscape
+relation:
+  label: Modular Landscape
+  url: cncf
+  values:
+    - id: hosted
+      label: Modular Projects
+      children:
+        - id: launched
+          label: Launched Projects
+          prefix: Modular
+          tag: Launched Project
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Launched
+          big_picture_color: rgb(24,54,114)
+        - id: testnet
+          label: Testnet Projects
+          prefix: Modular
+          tag: Testnet Project
+          color: '#00cbff'
+          big_picture_order: 2
+          big_picture_label: Testnet
+          big_picture_color: rgb(83, 113, 189)
+        # - id: graduated
+        #   label: CNCF Graduated Projects
+        #   prefix: CNCF
+        #   tag: Graduated Project
+        #   color: '#3570af'
+        #   big_picture_order: 1
+        #   big_picture_label: CNCF Graduated
+        #   big_picture_color: rgb(24,54,114)
+        # - id: incubating
+        #   label: CNCF Incubating Projects
+        #   prefix: CNCF
+        #   tag: Incubating Project
+        #   color: '#00cbff'
+        #   big_picture_order: 2
+        #   big_picture_label: CNCF Incubating
+        #   big_picture_color: rgb(83, 113, 189)
+        # - id: sandbox
+        #   label: CNCF Sandbox Projects
+        #   prefix: CNCF
+        #   tag: Sandbox Project
+        #   color: '#d1f7ff'
+        #   big_picture_label: CNCF Sandbox
+        #   big_picture_color: rgb(108, 165, 209)
+        #   additional_relation: member
+        # - id: archived
+        #   label: Archived CNCF Projects
+        #   prefix: CNCF
+        #   tag: Archived Project
+        #   color: '#d3d3d3'
+        #   big_picture_label: CNCF Archived
+        #   big_picture_color: rgb(211, 211, 211)
+        #   additional_relation: member
+    - id: false
+      label: Non-LF Edge Member Products/Projects
+      url: 'no'
+membership:
+  Platinum:
+    name: Modular
+    label: Platinum Member
+    funding: Platinum
+    is_large: true
+  Gold:
+    name: Modular
+    label: Gold Member
+    funding: Gold
+    is_large: true
+  Silver:
+    name: Modular
+    label: Silver Member
+    funding: Silver
+  linux_foundation:
+    name: LF
+    label: Project
+    funding: Linux Foundation
+    crunchbase_and_children: https://www.crunchbase.com/organization/linux-foundation
+  'false':
+    funding: 'No'
+home:
+  header: >
+    <h1>Modular Interactive Landscape</h1> The modular ecosystem landscape (<a target="_blank" href="images/modular-ecosystem-2023.png">png</a>.
+  footer: |
+    Crunchbase data is used under license from Crunchbase to CNCF.
+# ads:
+#   - url: https://events.linuxfoundation.org/cdcon-gitopscon/
+#     image: /images/cdcon-gitopscon-mobile.jpg
+#     title: cdCon + GitOpsCon
+presets:
+  - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
+    label: Cards by age
+  - url: /license=open-source
+    label: Open source landscape
+  - url: /category=cncf-members&format=card-mode&grouping=category
+    label: Member cards
+  - url: /format=card-mode&grouping=no&sort=stars
+    label: Cards by stars
+  - url: /format=data-avalability-networks&grouping=category
+    label: Cards by Data Availability
+  - url: /format=consensus&grouping=category
+    label: Cards by Consensus
+  - url: /format=settlement&grouping=category
+    label: Cards by Settlement
+  - url: /format=execution&grouping=category
+    label: Cards by Execution
+  - url: /format=infrastructure&grouping=category
+    label: Cards by Infrastructure
+  - url: /format=sequencing&grouping=category
+    label: Cards by Sequencing
+  - url: /format=rollup-frameworks&grouping=category
+    label: Cards by Rollup Frameworks
+  - url: /format=rollup-as-a-service&grouping=category
+    label: Cards by Rollup as a Service
+  - url: /format=cross-chain&grouping=category
+    label: Cards by Cross Chain
+big_picture:
+  main:
+    tab_index: -1
+    url: landscape
+    name: Landscape
+    short_name: Land...
+    title: Modular Landscape
+    fullscreen_header: Overwhelmed? Please see the Modular Ecosystem Trail Map. That and the interactive landscape are at l.modular.community
+    elements:
+      - type: HorizontalCategory
+        category: Data Avalability Networks
+        rows: 1
+        width: 570
+        height: 180
+        top: 0
+        left: 0
+        color: rgb(0,181,226)
+      - type: HorizontalCategory
+        category: Rollup Frameworks
+        rows: 1
+        width: 570
+        height: 180
+        top: 200
+        left: 0
+        color: rgb(0,134,191)
+      - type: LandscapeInfo
+        width: 370
+        height: 170
+        top: 400
+        left: 0
+        children:
+          - type: text
+            text: >
+              This landscape is intended as a map through the previously uncharted terrain of the modular ecosystem.
+            top: 80
+            left: 120
+            right: 20
+            font_size: 12
+          - type: image
+            image: footer-bg-image.png
+            top: 20
+            left: 15
+            width: 90
+            height: 90
+            title: QR Code
+          - type: title
+            title: Modular Ecosystem
+            top: 20
+            left: 130
+            font_size: 23
+          # - type: image
+          #   image: footer-bg-image.png
+          #   width: 40
+          #   right: 15
+          #   top: 15
+          #   title: CNCF Logo
+          # - type: image
+          #   image: footer-bg-image.png
+          #   width: 40
+          #   left: 15
+          #   top: 15
+          #   title: Landscape Logo
+          # - type: image
+          #   image: footer-bg-image.png
+          #   width: 50
+          #   right: 15
+          #   top: 40
+          #   title: Amplify Logo
+          # - type: image
+          #   image: footer-bg-image.png
+          #   width: 50
+          #   right: 75
+          #   top: 42
+          #   title: Redpoint Logo
+test:
+  header: Modular Ecosystem Interactive Landscape
+  section: Modular Ecosystem Graduated Projects
+  logo: modular-ecosystem.jpeg
+anonymous_organization:
+  name: Non-Public Unnamed Organization
+  homepage: https://www.cncf.io
+  city: Bouvet Island
+  region: Antarctica
+  country: Antarctica
+  twitter: https://twitter.com/CloudNativeFdn
+prerender:
+  end-users: /card-mode?enduser=yes&style=logo&embed=yes
+  members: /card-mode?category=modular-ecosystem-members&grouping=category&embed=yes
+  partners: /card-mode?category=partner&grouping=category&embed=yes
+export:
+  end-users-reverse-chronological: enduser=yes&sort=joined&grouping=no
+  modular-ecosystem-members: category=modular-ecosystem-members&grouping=no
