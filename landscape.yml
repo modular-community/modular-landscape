@@ -8,7 +8,7 @@ landscape:
       - item:
         name: Celestia
         allow_duplicate_repo: true
-        project: launched
+        project: development
         homepage_url: https://celestia.org/
         repo_url: https://github.com/celestiaorg/celestia-node
         logo: celestia.svg
@@ -21,19 +21,9 @@ landscape:
         homepage_url: https://ethereum.org/
         repo_url: https://github.com/ethereum/go-ethereum
         # project_org: https://github.com/ethereum
-        logo: celestia.svg
+        logo: ethereum.svg
         twitter: https://twitter.com/ethereum
         crunchbase: https://www.crunchbase.com/organization/ethereum
-      - item:
-        name: Avail
-        allow_duplicate_repo: true
-        project: development
-        homepage_url: https://www.availproject.org/
-        repo_url: https://github.com/availproject/avail
-        # project_org: https://github.com/availproject
-        logo: celestia.svg
-        twitter: https://twitter.com/AvailProject
-        crunchbase: https://www.crunchbase.com/organization/polygontechnology
 - category:
   name: Consensus
   subcategories:
@@ -55,7 +45,7 @@ landscape:
       project: development
       homepage_url: https://ethereum.org/
       repo_url: https://github.com/ethereum/go-ethereum
-      logo: celestia.svg
+      logo: ethereum.svg
       twitter: https://twitter.com/ethereum
       crunchbase: https://www.crunchbase.com/organization/ethereum
 - category:
@@ -71,7 +61,7 @@ landscape:
       homepage_url: https://ethereum.org/
       repo_url: https://github.com/ethereum/go-ethereum
       # project_org: https://github.com/ethereum
-      logo: celestia.svg
+      logo: ethereum.svg
       twitter: https://twitter.com/ethereum
       crunchbase: https://www.crunchbase.com/organization/ethereum
 - category:
@@ -85,7 +75,7 @@ landscape:
       project: development
       homepage_url: https://developer.arbitrum.io/inside-arbitrum-nitro/
       repo_url: https://github.com/OffchainLabs/nitro
-      logo: celestia.svg
+      logo: arbitrum-nitro.svg
       twitter: https://twitter.com/arbitrum
       crunchbase: https://www.crunchbase.com/organization/arbitrum
 - category:
@@ -95,13 +85,13 @@ landscape:
     name: Infrastructure
     items:
     - item:
-      name: Rollkit
+      name: TBD
       allow_duplicate_repo: true # FIXME: remove once done
       project: development
       homepage_url: https://rollkit.dev/
       repo_url: https://github.com/rollkit/rollkit
       # project_org: https://github.com/rollkit
-      logo: rollkit.svg
+      logo: TBD.svg
       twitter: https://twitter.com/RollkitDev
       crunchbase: https://www.crunchbase.com/organization/lazyledger
 - category:
@@ -111,13 +101,13 @@ landscape:
     name: Sequencing
     items:
     - item:
-      name: Rollkit
+      name: TBD
       allow_duplicate_repo: true # FIXME: remove once done
       project: development
       homepage_url: https://rollkit.dev/
       repo_url: https://github.com/rollkit/rollkit
       # project_org: https://github.com/rollkit
-      logo: rollkit.svg
+      logo: TBD.svg
       twitter: https://twitter.com/RollkitDev
       crunchbase: https://www.crunchbase.com/organization/lazyledger
 - category:
@@ -143,13 +133,13 @@ landscape:
     name: Rollup as a service
     items:
     - item:
-      name: Rollkit
+      name: TBD
       allow_duplicate_repo: true # FIXME: remove once done
       project: development
       homepage_url: https://rollkit.dev/
       repo_url: https://github.com/rollkit/rollkit
       # project_org: https://github.com/rollkit
-      logo: rollkit.svg
+      logo: TBD.svg
       twitter: https://twitter.com/RollkitDev
       crunchbase: https://www.crunchbase.com/organization/lazyledger
 - category:
@@ -159,15 +149,15 @@ landscape:
     name: Cross chain
     items:
     - item:
-      name: Rollkit
+      name: Axelar Network
       allow_duplicate_repo: true # FIXME: remove once done
-      project: development
-      homepage_url: https://rollkit.dev/
-      repo_url: https://github.com/rollkit/rollkit
-      # project_org: https://github.com/rollkit
-      logo: rollkit.svg
-      twitter: https://twitter.com/RollkitDev
-      crunchbase: https://www.crunchbase.com/organization/lazyledger
+      project: launched
+      homepage_url: https://axelar.network/
+      repo_url: https://github.com/axelarnetwork/axelar-core
+      # project_org: https://github.com/axelarnetwork
+      logo: axelar-network.svg
+      twitter: https://twitter.com/axelarcore
+      crunchbase: https://www.crunchbase.com/organization/axelar-a039
 - category:
   name: Modular Members
   subcategories:

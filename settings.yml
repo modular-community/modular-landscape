@@ -247,14 +247,14 @@ big_picture:
       - type: HorizontalCategory
         category: Cross chain
         rows: 2
-        width: 640
+        width: 860
         height: 180
         top: 600
         left: 0
         color: rgb(0,181,226)
       - type: LandscapeInfo
-        width: 250
-        height: 390
+        width: 200
+        height: 380
         top: 0
         left: 660
         children:
@@ -263,45 +263,45 @@ big_picture:
               This landscape is intended as a map through the previously uncharted terrain of cloud native technologies. There are many routes to deploying a
               cloud native application, with CNCF Projects representing a particularly well-traveled path.
             top: 80
-            left: 120
+            left: 20
             right: 20
             font_size: 12
-          - type: image
-            image: qr-l.svg
-            top: 80
-            left: 15
-            width: 90
-            height: 90
-            title: QR Code
-          - type: title
-            title: l.cncf.io
-            top: 168
-            left: 18
-            font_size: 23
-          - type: image
-            image: right-logo.svg
-            width: 109
-            right: 15
-            top: 15
-            title: CNCF Logo
+          # - type: image
+          #   image: qr-l.svg
+          #   top: 80
+          #   left: 15
+          #   width: 90
+          #   height: 90
+          #   title: QR Code
+          # - type: title
+          #   title: l.cncf.io
+          #   top: 168
+          #   left: 18
+          #   font_size: 23
+          # - type: image
+          #   image: right-logo.svg
+          #   width: 109
+          #   right: 15
+          #   top: 15
+          #   title: CNCF Logo
           - type: image
             image: left-logo.svg
             width: 140
             left: 15
             top: 15
             title: Landscape Logo
-          - type: image
-            image: amplify.svg
-            width: 50
-            right: 15
-            top: 40
-            title: Amplify Logo
-          - type: image
-            image: redpoint.svg
-            width: 50
-            right: 75
-            top: 42
-            title: Redpoint Logo
+          # - type: image
+          #   image: amplify.svg
+          #   width: 50
+          #   right: 15
+          #   top: 40
+          #   title: Amplify Logo
+          # - type: image
+          #   image: redpoint.svg
+          #   width: 50
+          #   right: 75
+          #   top: 42
+          #   title: Redpoint Logo
 test:
   header: CNCF Cloud Native Interactive Landscape
   section: CNCF Graduated Projects
